@@ -1,6 +1,17 @@
-
+/* tags */
 body {
     background-color: darkcyan;
+    padding: 0 15em;
+    margin: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding-top: .10em 
 }
 
 nav {
@@ -9,7 +20,7 @@ nav {
     width: 100%;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2em 0em 2em 0em; 
+    padding: .7em 0;
 }
 
 nav a {
@@ -17,44 +28,26 @@ nav a {
     margin: .2em 1em 0px 1em;
 }
 
-nav a:hover{
+nav a:hover {
     color: whitesmoke;
 }
 
-.wrapper {
-        background-color: white;
-}
-
-h1 {
-    text-transform: uppercase;
-    text-align: center;
-    color: royalblue;
+h2, h3 {
+    color: beige;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
-footer {         
-    background-color: black;
-    color: white;
-    text-align: center;
-
-}
-
-footer a {
+h4 {
     color: goldenrod;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
 }
 
-
-.flex-container {
-    display: flex;
-    width: 100%;
-    background-color: #faebd7;
-
-}
-
-.img-hero {
+img {
     width: 100%;
     height: auto;
-    overflow: hidden;
 }
 
 main {
@@ -66,6 +59,56 @@ aside {
     flex: 1;
     margin: 1em;
     max-height: 30em;
-    text-overflow: ellipsis;
     overflow: scroll;
 }
+
+
+footer {         
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  .5em;
+}
+
+footer a {
+    color: goldenrod;
+    margin: .2em 2em 0 1em;
+}
+
+/* classes */
+
+.wrapper {
+        background-color: whitesmoke;
+        margin: -1em 0 -1em 0;
+}
+
+
+footer a {
+    color: goldenrod;
+}
+
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    max-height: 500x;
+    background-color: #faebd7;
+
+}
+
+
+.flex-item {
+    background-color: #faebd7;
+    flex: 1;
+    margin: 2em;
+}
+
+.section-item {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
