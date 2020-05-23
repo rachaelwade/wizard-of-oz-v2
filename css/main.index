@@ -1,0 +1,70 @@
+body {
+    background-color: darkcyan;
+}
+
+nav {
+    background-color: orange;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em 0em 2em 0em; 
+}
+
+nav a {
+    color: darkred;
+    margin: .2em 1em 0px 1em;
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+
+.wrapper {
+        background-color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: #faebd7;
+
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+main {
+    flex: 3;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+    max-height: 30em;
+    text-overflow: ellipsis;
+    overflow: scroll;
+}
+
+
+footer {         
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+footer a {
+    color: goldenrod;
+}
