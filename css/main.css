@@ -1,4 +1,4 @@
-/* tags */
+
 body {
     background-color: darkcyan;
 }
@@ -42,7 +42,7 @@ footer {
 footer a {
     color: goldenrod;
 }
-/* selectors */
+
 
 .flex-container {
     display: flex;
